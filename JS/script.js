@@ -84,8 +84,34 @@ Cria comentario em varias linhas
 // let n14 = 14;
 // console.log(n13 !== n14);
 
+//const idade = 19;
 
+//if(idade >= 18){
+//    alert( 'A pessoa é maior de idade' );
+//}   else { alert( 'A pessoa não é maior de idade' );
+//}
 
+// /*
+// const anolancamento = 1980;
 
+// if(anolancamento < 2000) {
+//         alert('Este carro é antigo');
+// }else if(anolancamento > 2015){
+//             alert('Esse carro é novo');
+//      } else{
+//         alert('Este carro é intermediario');
+//      }
+// */
+
+// let peso = 101;
+// if(peso < 30) {
+//     alert('você está abaixo do peso');
+// }else if( (peso >= 30) && (peso <= 70)) {
+//         alert('Você está no seu peso normal');
+//  }else if( (peso >= 71) && (peso <= 100)) {
+//     alert('Você está com sobrepeso');
+// } else{
+//     alert('Você está com obesidade');
+//  }
 
 

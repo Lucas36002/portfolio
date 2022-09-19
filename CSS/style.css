@@ -23,11 +23,28 @@ h1
 {
     background-color:pink; /*esta propriedade altera a cor de fundo do elemento selecionado*/
     color: black;
-    margin: 0px 0px; /*margem de fora*/
-    padding: 20px; /*margem de fora*/
-
+    margin: 0px 0px; /*margem externa*/
+    padding: 20px; /*margem interna*/
+    display: flex; /*coloca o item lado a lado*/
+    flex-direction:column;
+    align-items:center
 }
 .linkedin
 {
     border-radius: 10%;
+} 
+
+header img {
+    width: 100px
+}
+header ul { 
+    text-transform: uppercase; /*altera tamanho da fonte(primeira letra maiuscula)*/ 
+}
+header nav li{
+    display: inline-block;
+    padding: 20px 50px;
+}
+header nav li:hover{
+    color: rgb(235, 106, 106);
+    background-color: chartreuse;
 }
